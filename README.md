@@ -14,11 +14,13 @@ Configurar o ambiente de trabalho no GitHub e realizar a primeira exibição de 
 Tarefas
 - [x]Criar uma conta no GitHub (caso ainda não possua).
 - [x]Criar um novo repositório no GitHub.
- Adicionar:
+
+Adicionar:
 - [x]Um arquivo README.md, descrevendo o projeto e listando estas etapas.
 - [x]Um arquivo de licença (por exemplo, MIT License).
 - [x]Um arquivo de código .por.
 - [x]Exibir um CPF usando o comando escreva.
+
   Como usar checkbox no README
 Copie a seção Desenvolvimento do Projeto direto no seu README.md.
 Marque as tarefas concluídas trocando [ ] por [x] à medida que for avançando.
