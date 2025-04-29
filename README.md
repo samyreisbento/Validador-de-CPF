@@ -22,6 +22,7 @@ Adicionar:
 - [x]Exibir um CPF usando o comando escreva.
 
   Como usar checkbox no README
+  
 Copie a seção Desenvolvimento do Projeto direto no seu README.md.
 Marque as tarefas concluídas trocando [ ] por [x] à medida que for avançando.
 
