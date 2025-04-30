@@ -4,6 +4,11 @@ programa
 	funcao inicio()
 	{
 		escreva("111.444.777-35")
+                cadeia parte_1 = "111",parte_2 = "444",parte_3 = "777",cpf_digitos = "35",cpf
+		cpf = parte_1 + "." + parte_2
+                cpf = cpf + "." + parte_3 + "-" + cpf_digitos
+                escreva("O CPF digitado foi : ", cpf)
+
 	}
 }
 /* $$$ Portugol Studio $$$ 
