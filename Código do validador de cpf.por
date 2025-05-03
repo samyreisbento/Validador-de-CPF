@@ -3,12 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("111.444.777-35")
-                cadeia parte_1 = "111",parte_2 = "444",parte_3 = "777",cpf_digitos = "35",cpf
-		cpf = parte_1 + "." + parte_2
-                cpf = cpf + "." + parte_3 + "-" + cpf_digitos
-                escreva("O CPF digitado foi : ", cpf)
-
+		inteiro parte_inicial,parte_meio,parte_final,parte_digitos
+		escreva("Digite os primeiros três digitos do cpf: ")
+		leia(parte_inicial)
+		escreva("Digite os três números do meio do cpf: ")
+		leia(parte_meio)
+		escreva("Digite os trê números finais do cpf: ")
+		leia(parte_final)
+		escreva("Digite os números verificadores: ")
+		leia(parte_digitos)
+		escreva("CPF: " + parte_inicial + "." + parte_meio + "." + parte_final + "-" + parte_digitos)
 	}
 }
 /* $$$ Portugol Studio $$$ 
