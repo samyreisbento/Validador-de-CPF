@@ -26,8 +26,29 @@ Adicionar:
 Copie a seção Desenvolvimento do Projeto direto no seu README.md.
 Marque as tarefas concluídas trocando [ ] por [x] à medida que for avançando.
 
+## Etapa 2: Uso de Variáveis
+
+### Objetivo
+Armazenar e exibir o CPF formatado utilizando variáveis.
+
+### Tarefas
+- [x] Criar **quatro variáveis inteiras**.
+- [x] Atribuir valores a essas variáveis (valores fixos).
+- [x] Exibir o CPF formatado a partir dessas variáveis.
+
+## Etapa 3: Entrada de Dados
+
+### Objetivo
+Permitir a entrada de dados pelo usuário e exibir o CPF formatado.
+
+### Tarefas
+- [x] Ler valores digitados para **quatro variáveis inteiras**.
+- [x] Exibir o CPF formatado a partir dos valores lidos.
+
+---
+
 Exemplo antes e depois de completar uma tarefa:
 
-- [ ] Criar um novo repositório no GitHub <--- antes de realizar a tarefa
+- [x] Criar um novo repositório no GitHub <--- antes de realizar a tarefa
 - [x] Criar um novo repositório no GitHub <--- após realizar a tarefa
 
