@@ -1,6 +1,8 @@
 # Validador-de-CPF
 Avaliação da UC2
+
 Membros:Guilherme, Carlos, Samuel
+
 Desenvolvimento do Projeto
 
 Desenvolvimento do Projeto
