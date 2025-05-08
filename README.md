@@ -5,7 +5,6 @@ Membros:Guilherme, Carlos, Samuel
 
 Desenvolvimento do Projeto
 
-Desenvolvimento do Projeto
 Checklist de Etapas
 Cada etapa deverá ser documentada corretamente nas mensagens de commit, usando uma descrição como: etapa 1: mostrando o CPF com escreva ou e1: mostrando o CPF com escreva
 
