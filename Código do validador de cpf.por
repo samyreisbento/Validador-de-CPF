@@ -1,6 +1,7 @@
 programa
 {
-	
+	inclua biblioteca Tipos
+	inclua biblioteca Texto
 	funcao inicio()
 	{
 		cadeia cpf
