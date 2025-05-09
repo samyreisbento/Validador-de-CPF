@@ -4,18 +4,27 @@ programa
 	funcao inicio()
 	{
 		cadeia cpf
-		caracter verificador1 = ' ', verificador2 = ' '
-		escreva("Digite seu cpf: ")
-		leia(cpf)
-		escreva(cpf)
-     
-        se(Texto.obter_caracter(cpf, 11) == '-')
+   caracter verificador1 = ' ',verificador2 = ' ' 
+   caracter caractere_atual
+   escreva("Digite seu cpf: ")
+   leia(cpf)
+   para(inteiro i=0; i < 11;i++){
+       	caractere_atual = Texto.obter_caracter(cpf, i )
+       	escreva(caractere_atual)
+   }
+       	para(inteiro i=0; i < 1; i++){
+            se(Texto.obter_caracter(cpf, 11) == '-')
         {
            verificador1 = Texto.obter_caracter(cpf, 12)
            verificador2 = Texto.obter_caracter(cpf, 13)
+           cadeia v1 = Tipos.caracter_para_cadeia(verificador1)
+           cadeia v2 = Tipos.caracter_para_cadeia(verificador2)
+           cadeia v3 = v1 + v2
+        
+         escreva("\n Digitos verificadores: ",v3)
         }
-         escreva("\n Digitos verificadores: ",verificador1,verificador2)
-	}
+		}
+		 
 }
 /* $$$ Portugol Studio $$$ 
  * 
