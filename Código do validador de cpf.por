@@ -3,33 +3,18 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro parte_inicial,parte_meio,parte_final,parte_digitos
-		faca{
-	      escreva("São aceitos somente números positivos\n")
-           escreva("Digite os primeiros três digitos do cpf: ")
-		 leia(parte_inicial)
-		 limpa()
-		}enquanto(parte_inicial < 0)
-		faca{
-	      escreva("São aceitos somente números positivos\n")
-           escreva("Digite os três números do meio do cpf: ")
-		 leia(parte_meio)
-		 limpa()
-		}enquanto(parte_meio < 0)
-          faca{
-	      escreva("São aceitos somente números positivos\n")
-           escreva("Digite os trê números finais do cpf: ")
-		 leia(parte_final)
-		 limpa()
-		}enquanto(parte_final < 0)
-
-           faca{
-	      escreva("São aceitos somente números positivos\n")
-           escreva("Digite os números verificadores: ")
-		 leia(parte_digitos)
-		 limpa()
-		}enquanto(parte_digitos < 0)
-          escreva("CPF: " + parte_inicial + "." + parte_meio + "." + parte_final + "-" + parte_digitos)
+		cadeia cpf
+		caracter verificador1 = ' ', verificador2 = ' '
+		escreva("Digite seu cpf: ")
+		leia(cpf)
+		escreva(cpf)
+     
+        se(Texto.obter_caracter(cpf, 11) == '-')
+        {
+           verificador1 = Texto.obter_caracter(cpf, 12)
+           verificador2 = Texto.obter_caracter(cpf, 13)
+        }
+         escreva("\n Digitos verificadores: ",verificador1,verificador2)
 	}
 }
 /* $$$ Portugol Studio $$$ 
