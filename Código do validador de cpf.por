@@ -20,7 +20,7 @@ funcao inicio()
            
        }
            }
-           senao se(Tipos.cadeia_e_inteiro(cpf, 10) == falso)
+           senao se(Tipos.cadeia_e_inteiro(cpf, 10) == falso e Texto.numero_caracteres(cpf) == 14)
            {
              se(Texto.obter_caracter(cpf, 11) == '-' e Texto.obter_caracter(cpf, 3) == '.' e Texto.obter_caracter(cpf, 7) == '.')
              {
