@@ -1,31 +1,48 @@
 programa
 {
-	inclua biblioteca Tipos
-	inclua biblioteca Texto
-	funcao inicio()
-	{
-		cadeia cpf
-   caracter verificador1 = ' ',verificador2 = ' ' 
+inclua biblioteca Tipos
+inclua biblioteca Texto
+
+funcao inicio()
+{
+   cadeia cpf
+   inteiro cpf2 
    caracter caractere_atual
    escreva("Digite seu cpf: ")
    leia(cpf)
-   para(inteiro i=0; i < 11;i++){
-       	caractere_atual = Texto.obter_caracter(cpf, i )
-       	escreva(caractere_atual)
-   }
-       	para(inteiro i=0; i < 1; i++){
-            se(Texto.obter_caracter(cpf, 11) == '-')
-        {
-           verificador1 = Texto.obter_caracter(cpf, 12)
-           verificador2 = Texto.obter_caracter(cpf, 13)
-           cadeia v1 = Tipos.caracter_para_cadeia(verificador1)
-           cadeia v2 = Tipos.caracter_para_cadeia(verificador2)
-           cadeia v3 = v1 + v2
-        
-         escreva("\n Digitos verificadores: ",v3)
-        }
-		}
-		 
+           
+           se(Tipos.cadeia_e_inteiro(cpf, 10) == verdadeiro e Texto.numero_caracteres(cpf) == 11)
+           {
+            para(inteiro i=0; i < 11; i++)
+            {
+           caractere_atual = Texto.obter_caracter(cpf, i )
+           escreva(caractere_atual)
+           
+       }
+           }
+           senao se(Tipos.cadeia_e_inteiro(cpf, 10) == falso)
+           {
+             se(Texto.obter_caracter(cpf, 11) == '-' e Texto.obter_caracter(cpf, 3) == '.' e Texto.obter_caracter(cpf, 7) == '.')
+             {
+               para(inteiro i=0; i < 14; i++)
+               {
+              caractere_atual = Texto.obter_caracter(cpf, i )
+              escreva(caractere_atual)
+             
+         }
+             }
+             senao
+             {
+               escreva("Formato de cpf incorreto.")
+             }
+             
+           }
+           senao
+           {
+           escreva("cpf inválido.")
+           }
+           
+    }
 }
 /* $$$ Portugol Studio $$$ 
  * 
