@@ -1,7 +1,10 @@
 # Validador-de-CPF
 Avaliação da UC2
 
-Membros:Guilherme, Carlos, Samuel
+Membros:
+Guilherme - https://github.com/guizin7894
+Carlos - https://github.com/nextages
+Samuel - https://github.com/samyreisbento
 
 Desenvolvimento do Projeto
 
