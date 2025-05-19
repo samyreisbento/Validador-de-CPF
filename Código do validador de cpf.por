@@ -5,6 +5,7 @@ inclua biblioteca Texto
 
 funcao inicio()
 {
+
    cadeia cpf
    caracter caractere_atual,sub
    inteiro caractere_atual_inteiro,contador = 10,acumulador = 0,sub2
@@ -68,8 +69,7 @@ funcao inicio()
              
     }
            
-    }
-}
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
